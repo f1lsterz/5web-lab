@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="index.css" />
+   <!-- <script src = "index.js"></script>-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <title>5lab</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="part part-1">
+          <p id = "text1">
+            Kuroko's Basketball (Japanese: 黒子のバスケ, Hepburn: Kuroko no
+            Basuke) is a Japanese sports manga series written and illustrated by
+            Tadatoshi Fujimaki. It was serialized in Shueisha's shōnen manga
+            magazine Weekly Shōnen Jump from December 2008 to September 2014,
+            with its chapters collected in 30 tankōbon volumes. It tells the
+            story of a high school basketball team trying to make it to the
+            national tournament.
+          </p>
+      </div>
+      <div class="part part-2">
+        <ul>
+          <li><a href="index.html">Main</a></li>
+          <li><a href="index.html">Main</a></li>
+          <li><a href="index.html">Main</a></li>
+        </ul>
+        <label for="italicCheckbox">Курсивний текст</label>
+        <input
+                type="checkbox"
+                id="italicCheckbox"
+        />
+      </div>
+      <div class="part part-3">
+        <p id="result"></p>
+        <form id="triangle-form">
+          <label for="side1">Сторона 1:</label>
+          <input type="number" id="side1" name="side1" required><br><br>
+
+          <label for="side2">Сторона 2:</label>
+          <input type="number" id="side2" name="side2" required><br><br>
+
+          <label for="side3">Сторона 3:</label>
+          <input type="number" id="side3" name="side3" required><br><br>
+
+          <button type="submit">Перевірити можливість побудови</button>
+        </form>
+        <p id="triangleResult"></p>
+        <!--<video controls>
+          <source src="aomine.mp4" type="video/mp4" />
+        </video>-->
+      </div>
+      <div class="part part-4">
+        <img src="src/kuroko.jpg" usemap="#kuroko-map" alt=""/>
+        <map name="kuroko-map">
+          <area
+            shape="rect"
+            coords="0,0,400,400"
+            href="https://en.wikipedia.org/wiki/Kuroko%27s_Basketball"
+            alt="Перейти на сайт"
+            target="_blank"
+          />
+        </map>
+      </div>
+      <div class="part part-5">
+        <blockquote>
+          <em>
+            “Then what is “victory”? It doesn't matter how many points you score
+            at the end of the game, if you're not happy, it's not a win.”
+            <p>&copy; Kuroko Tetsuya</p>
+          </em>
+        </blockquote>
+      </div>
+      <div class="part part-6">
+        <ul id = "text2">
+          <li>Midorima</li>
+          <li>Aomine</li>
+          <li>Kagami</li>
+        </ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
